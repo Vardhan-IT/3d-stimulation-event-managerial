@@ -87,10 +87,18 @@
 <main>
   <h2>Plan Your Perfect Event</h2>
   <p>We offer customizable decorations for your special day!</p>
-  <button class="customize-btn" onclick="openCustomizationPage()">Customize Decoration</button>
+ <button class="customize-btn" onclick="openLinkcamera()">Customize Decoration by using camera</button>
+  <button class="customize-btn" onclick="openCustomizationPage()">Customize Decoration  </button>
+  <button class="customize-btn" onclick="open3dmodeluploading()">Customize Decoration by using 3d models</button>
 </main>
 
 <script>
+  function openLinkcamera() {
+            window.open("https://vardhan-it.github.io/camera-accessing-3d-event-model/", "_blank");
+        }
+        function open3dmodeluploading() {
+            window.open("https://vardhan-it.github.io/3d-image-model-upload/", "_blank");
+        }
   function openCustomizationPage() {
     window.open('https://vardhan-it.github.io/3d-room-event--3/', '_blank');
   }
